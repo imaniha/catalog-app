@@ -2,7 +2,6 @@ package org.akt.persistence;
 
 import org.akt.domain.Book;
 import org.akt.domain.BookRepository;
-import org.apache.kafka.common.quota.ClientQuotaAlteration;
 import org.springframework.stereotype.Repository;
 
 import java.util.Map;

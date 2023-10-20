@@ -1,6 +1,5 @@
 package org.akt.web;
 
-import org.akt.domain.Book;
 import org.akt.domain.BookAlreadyExistsException;
 import org.akt.domain.BookNotFoundException;
 import org.springframework.http.HttpStatus;
