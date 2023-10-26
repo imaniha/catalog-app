@@ -1,2 +1,6 @@
 catalog:
   greetings: "Hi there!"
+
+spring:
+  profiles:
+    active: "testData"
