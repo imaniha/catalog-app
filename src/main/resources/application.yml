@@ -1,6 +1,11 @@
-catalog:
-  greetings: "Hi there!"
-
 spring:
-  profiles:
-    active: "testData"
+  application:
+    name: catalog-app
+  config:
+    import: "optional:configserver:"
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+catalog:
+  greeting: "Welcome to the local book catalog"
