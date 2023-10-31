@@ -6,6 +6,13 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+  datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:5432/catalog_db
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
 
 catalog:
   greeting: "Welcome to the local book catalog"
